@@ -1,5 +1,6 @@
 import seaborn.objects as so
 from gapminder import gapminder
+import matplotlib.pyplot as plt
 
 def plot()
 datos_year=gapminder[gapminder['year']==2002]
